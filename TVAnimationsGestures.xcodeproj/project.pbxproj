@@ -7,62 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		100A80B81AFFF93D007F832C /* RMTPlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100A80B71AFFF93D007F832C /* RMTPlay.swift */; };
+		109DA8E61AFFFC7600861AFD /* RMTQuotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109DA8E51AFFFC7600861AFD /* RMTQuotation.swift */; };
+		109DA8E81AFFFDE600861AFD /* RMTHighlightingTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109DA8E71AFFFDE600861AFD /* RMTHighlightingTextView.swift */; };
+		109DA8EA1B00025900861AFD /* RMTQuoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109DA8E91B00025900861AFD /* RMTQuoteCell.swift */; };
+		109DA8EE1B00082F00861AFD /* RMTSectionInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109DA8ED1B00082F00861AFD /* RMTSectionInfo.swift */; };
+		109DA8F01B000A5000861AFD /* RMTSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109DA8EF1B000A5000861AFD /* RMTSectionHeaderView.swift */; };
+		10A4D7BF1B0019870056F89E /* RMTAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A4D7BE1B0019870056F89E /* RMTAppDelegate.swift */; };
+		10A4D7C31B0020E20056F89E /* RMTTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A4D7C21B0020E20056F89E /* RMTTableViewController.swift */; };
 		2822A4E81734088700C98A90 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2822A4E71734088700C98A90 /* UIKit.framework */; };
 		2822A4EA1734088700C98A90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2822A4E91734088700C98A90 /* Foundation.framework */; };
 		2822A4EC1734088700C98A90 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2822A4EB1734088700C98A90 /* CoreGraphics.framework */; };
 		2822A4F21734088700C98A90 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2822A4F01734088700C98A90 /* InfoPlist.strings */; };
-		2822A4F41734088700C98A90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2822A4F31734088700C98A90 /* main.m */; };
-		2822A4F81734088700C98A90 /* APLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2822A4F71734088700C98A90 /* APLAppDelegate.m */; };
 		2822A4FA1734088700C98A90 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2822A4F91734088700C98A90 /* Default.png */; };
 		2822A4FC1734088700C98A90 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2822A4FB1734088700C98A90 /* Default@2x.png */; };
 		2822A4FE1734088700C98A90 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2822A4FD1734088700C98A90 /* Default-568h@2x.png */; };
 		2822A5011734088700C98A90 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2822A4FF1734088700C98A90 /* MainStoryboard.storyboard */; };
-		2822A5041734088700C98A90 /* APLTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2822A5031734088700C98A90 /* APLTableViewController.m */; };
-		2822A5181734098800C98A90 /* APLHighlightingTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2822A50B1734098800C98A90 /* APLHighlightingTextView.m */; };
-		2822A5191734098800C98A90 /* APLPlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 2822A50D1734098800C98A90 /* APLPlay.m */; };
-		2822A51A1734098800C98A90 /* APLQuotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2822A50F1734098800C98A90 /* APLQuotation.m */; };
-		2822A51B1734098800C98A90 /* APLQuoteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2822A5111734098800C98A90 /* APLQuoteCell.m */; };
-		2822A51C1734098800C98A90 /* APLSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2822A5131734098800C98A90 /* APLSectionHeaderView.m */; };
-		2822A51D1734098800C98A90 /* APLSectionInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2822A5151734098800C98A90 /* APLSectionInfo.m */; };
-		289617EF17340A830051E0F6 /* carat-open.png in Resources */ = {isa = PBXBuildFile; fileRef = 289617ED17340A830051E0F6 /* carat-open.png */; };
-		289617F017340A830051E0F6 /* carat.png in Resources */ = {isa = PBXBuildFile; fileRef = 289617EE17340A830051E0F6 /* carat.png */; };
+		289617EF17340A830051E0F6 /* caret-open.png in Resources */ = {isa = PBXBuildFile; fileRef = 289617ED17340A830051E0F6 /* caret-open.png */; };
+		289617F017340A830051E0F6 /* caret.png in Resources */ = {isa = PBXBuildFile; fileRef = 289617EE17340A830051E0F6 /* caret.png */; };
 		289617F217340B7E0051E0F6 /* PlaysAndQuotations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 289617F117340B7E0051E0F6 /* PlaysAndQuotations.plist */; };
 		289617F417340D5C0051E0F6 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 289617F317340D5C0051E0F6 /* MessageUI.framework */; };
 		538403F917C2CEE0001460AF /* SectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 538403F717C2CEE0001460AF /* SectionHeaderView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		100A80B71AFFF93D007F832C /* RMTPlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMTPlay.swift; sourceTree = "<group>"; };
+		109DA8E51AFFFC7600861AFD /* RMTQuotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMTQuotation.swift; sourceTree = "<group>"; };
+		109DA8E71AFFFDE600861AFD /* RMTHighlightingTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMTHighlightingTextView.swift; sourceTree = "<group>"; };
+		109DA8E91B00025900861AFD /* RMTQuoteCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMTQuoteCell.swift; sourceTree = "<group>"; };
+		109DA8ED1B00082F00861AFD /* RMTSectionInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMTSectionInfo.swift; sourceTree = "<group>"; };
+		109DA8EF1B000A5000861AFD /* RMTSectionHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMTSectionHeaderView.swift; sourceTree = "<group>"; };
+		10A4D7BE1B0019870056F89E /* RMTAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMTAppDelegate.swift; sourceTree = "<group>"; };
+		10A4D7C21B0020E20056F89E /* RMTTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMTTableViewController.swift; sourceTree = "<group>"; };
 		2822A4E41734088700C98A90 /* TVAnmGst.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TVAnmGst.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2822A4E71734088700C98A90 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2822A4E91734088700C98A90 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2822A4EB1734088700C98A90 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		2822A4EF1734088700C98A90 /* TVAnimationsGestures-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TVAnimationsGestures-Info.plist"; sourceTree = "<group>"; };
 		2822A4F11734088700C98A90 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2822A4F31734088700C98A90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2822A4F51734088700C98A90 /* TVAnimationsGestures-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TVAnimationsGestures-Prefix.pch"; sourceTree = "<group>"; };
-		2822A4F61734088700C98A90 /* APLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APLAppDelegate.h; sourceTree = "<group>"; };
-		2822A4F71734088700C98A90 /* APLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APLAppDelegate.m; sourceTree = "<group>"; };
 		2822A4F91734088700C98A90 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		2822A4FB1734088700C98A90 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		2822A4FD1734088700C98A90 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		2822A5001734088700C98A90 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		2822A5021734088700C98A90 /* APLTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APLTableViewController.h; sourceTree = "<group>"; };
-		2822A5031734088700C98A90 /* APLTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APLTableViewController.m; sourceTree = "<group>"; };
-		2822A50A1734098800C98A90 /* APLHighlightingTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLHighlightingTextView.h; sourceTree = "<group>"; };
-		2822A50B1734098800C98A90 /* APLHighlightingTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLHighlightingTextView.m; sourceTree = "<group>"; };
-		2822A50C1734098800C98A90 /* APLPlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLPlay.h; sourceTree = "<group>"; };
-		2822A50D1734098800C98A90 /* APLPlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLPlay.m; sourceTree = "<group>"; };
-		2822A50E1734098800C98A90 /* APLQuotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLQuotation.h; sourceTree = "<group>"; };
-		2822A50F1734098800C98A90 /* APLQuotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLQuotation.m; sourceTree = "<group>"; };
-		2822A5101734098800C98A90 /* APLQuoteCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLQuoteCell.h; sourceTree = "<group>"; };
-		2822A5111734098800C98A90 /* APLQuoteCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLQuoteCell.m; sourceTree = "<group>"; };
-		2822A5121734098800C98A90 /* APLSectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLSectionHeaderView.h; sourceTree = "<group>"; };
-		2822A5131734098800C98A90 /* APLSectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLSectionHeaderView.m; sourceTree = "<group>"; };
-		2822A5141734098800C98A90 /* APLSectionInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLSectionInfo.h; sourceTree = "<group>"; };
-		2822A5151734098800C98A90 /* APLSectionInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLSectionInfo.m; sourceTree = "<group>"; };
 		285ADA711734130600754228 /* ReadMe.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
-		289617ED17340A830051E0F6 /* carat-open.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "carat-open.png"; sourceTree = "<group>"; };
-		289617EE17340A830051E0F6 /* carat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carat.png; sourceTree = "<group>"; };
+		289617ED17340A830051E0F6 /* caret-open.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "caret-open.png"; sourceTree = "<group>"; };
+		289617EE17340A830051E0F6 /* caret.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = caret.png; sourceTree = "<group>"; };
 		289617F117340B7E0051E0F6 /* PlaysAndQuotations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PlaysAndQuotations.plist; sourceTree = "<group>"; };
 		289617F317340D5C0051E0F6 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		289617F517340D630051E0F6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -89,6 +79,9 @@
 			children = (
 				285ADA711734130600754228 /* ReadMe.txt */,
 				2822A4ED1734088700C98A90 /* TVAnimationsGestures */,
+				2822A520173409EE00C98A90 /* Cells */,
+				2822A51F1734099300C98A90 /* Model Classes */,
+				2822A4EE1734088700C98A90 /* Supporting Files */,
 				2822A4E61734088700C98A90 /* Frameworks */,
 				2822A4E51734088700C98A90 /* Products */,
 			);
@@ -117,17 +110,10 @@
 		2822A4ED1734088700C98A90 /* TVAnimationsGestures */ = {
 			isa = PBXGroup;
 			children = (
-				2822A4F61734088700C98A90 /* APLAppDelegate.h */,
-				2822A4F71734088700C98A90 /* APLAppDelegate.m */,
-				2822A5021734088700C98A90 /* APLTableViewController.h */,
-				2822A5031734088700C98A90 /* APLTableViewController.m */,
-				2822A5121734098800C98A90 /* APLSectionHeaderView.h */,
-				2822A5131734098800C98A90 /* APLSectionHeaderView.m */,
-				2822A5141734098800C98A90 /* APLSectionInfo.h */,
-				2822A5151734098800C98A90 /* APLSectionInfo.m */,
-				2822A520173409EE00C98A90 /* Cells */,
-				2822A51F1734099300C98A90 /* Model Classes */,
-				2822A4EE1734088700C98A90 /* Supporting Files */,
+				10A4D7BE1B0019870056F89E /* RMTAppDelegate.swift */,
+				10A4D7C21B0020E20056F89E /* RMTTableViewController.swift */,
+				109DA8EF1B000A5000861AFD /* RMTSectionHeaderView.swift */,
+				109DA8ED1B00082F00861AFD /* RMTSectionInfo.swift */,
 			);
 			path = TVAnimationsGestures;
 			sourceTree = "<group>";
@@ -136,11 +122,10 @@
 			isa = PBXGroup;
 			children = (
 				289617F117340B7E0051E0F6 /* PlaysAndQuotations.plist */,
-				289617ED17340A830051E0F6 /* carat-open.png */,
-				289617EE17340A830051E0F6 /* carat.png */,
+				289617ED17340A830051E0F6 /* caret-open.png */,
+				289617EE17340A830051E0F6 /* caret.png */,
 				2822A4EF1734088700C98A90 /* TVAnimationsGestures-Info.plist */,
 				2822A4F01734088700C98A90 /* InfoPlist.strings */,
-				2822A4F31734088700C98A90 /* main.m */,
 				2822A4F51734088700C98A90 /* TVAnimationsGestures-Prefix.pch */,
 				2822A4FF1734088700C98A90 /* MainStoryboard.storyboard */,
 				538403F717C2CEE0001460AF /* SectionHeaderView.xib */,
@@ -149,28 +134,27 @@
 				2822A4FD1734088700C98A90 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			path = TVAnimationsGestures;
 			sourceTree = "<group>";
 		};
 		2822A51F1734099300C98A90 /* Model Classes */ = {
 			isa = PBXGroup;
 			children = (
-				2822A50C1734098800C98A90 /* APLPlay.h */,
-				2822A50D1734098800C98A90 /* APLPlay.m */,
-				2822A50E1734098800C98A90 /* APLQuotation.h */,
-				2822A50F1734098800C98A90 /* APLQuotation.m */,
+				100A80B71AFFF93D007F832C /* RMTPlay.swift */,
+				109DA8E51AFFFC7600861AFD /* RMTQuotation.swift */,
 			);
 			name = "Model Classes";
+			path = TVAnimationsGestures;
 			sourceTree = "<group>";
 		};
 		2822A520173409EE00C98A90 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				2822A50A1734098800C98A90 /* APLHighlightingTextView.h */,
-				2822A50B1734098800C98A90 /* APLHighlightingTextView.m */,
-				2822A5101734098800C98A90 /* APLQuoteCell.h */,
-				2822A5111734098800C98A90 /* APLQuoteCell.m */,
+				109DA8E71AFFFDE600861AFD /* RMTHighlightingTextView.swift */,
+				109DA8E91B00025900861AFD /* RMTQuoteCell.swift */,
 			);
 			name = Cells;
+			path = TVAnimationsGestures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +183,9 @@
 		2822A4DC1734088700C98A90 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = APL;
+				CLASSPREFIX = RMT;
 				LastUpgradeCheck = 0500;
-				ORGANIZATIONNAME = "Apple Inc.";
+				ORGANIZATIONNAME = "Robert Theis";
 			};
 			buildConfigurationList = 2822A4DF1734088700C98A90 /* Build configuration list for PBXProject "TVAnimationsGestures" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -232,8 +216,8 @@
 				538403F917C2CEE0001460AF /* SectionHeaderView.xib in Resources */,
 				2822A4FA1734088700C98A90 /* Default.png in Resources */,
 				289617F217340B7E0051E0F6 /* PlaysAndQuotations.plist in Resources */,
-				289617F017340A830051E0F6 /* carat.png in Resources */,
-				289617EF17340A830051E0F6 /* carat-open.png in Resources */,
+				289617F017340A830051E0F6 /* caret.png in Resources */,
+				289617EF17340A830051E0F6 /* caret-open.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,15 +228,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2822A5191734098800C98A90 /* APLPlay.m in Sources */,
-				2822A51B1734098800C98A90 /* APLQuoteCell.m in Sources */,
-				2822A4F81734088700C98A90 /* APLAppDelegate.m in Sources */,
-				2822A51D1734098800C98A90 /* APLSectionInfo.m in Sources */,
-				2822A5041734088700C98A90 /* APLTableViewController.m in Sources */,
-				2822A4F41734088700C98A90 /* main.m in Sources */,
-				2822A51A1734098800C98A90 /* APLQuotation.m in Sources */,
-				2822A5181734098800C98A90 /* APLHighlightingTextView.m in Sources */,
-				2822A51C1734098800C98A90 /* APLSectionHeaderView.m in Sources */,
+				109DA8E61AFFFC7600861AFD /* RMTQuotation.swift in Sources */,
+				109DA8F01B000A5000861AFD /* RMTSectionHeaderView.swift in Sources */,
+				100A80B81AFFF93D007F832C /* RMTPlay.swift in Sources */,
+				109DA8E81AFFFDE600861AFD /* RMTHighlightingTextView.swift in Sources */,
+				109DA8EA1B00025900861AFD /* RMTQuoteCell.swift in Sources */,
+				10A4D7C31B0020E20056F89E /* RMTTableViewController.swift in Sources */,
+				109DA8EE1B00082F00861AFD /* RMTSectionInfo.swift in Sources */,
+				10A4D7BF1B0019870056F89E /* RMTAppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,10 +338,16 @@
 		2822A5081734088700C98A90 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TVAnimationsGestures/TVAnimationsGestures-Prefix.pch";
 				INFOPLIST_FILE = "TVAnimationsGestures/TVAnimationsGestures-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = TVAnmGst;
+				SWIFT_OBJC_BRIDGING_HEADER = TVAnimationsGestures/Header.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -366,10 +355,15 @@
 		2822A5091734088700C98A90 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TVAnimationsGestures/TVAnimationsGestures-Prefix.pch";
 				INFOPLIST_FILE = "TVAnimationsGestures/TVAnimationsGestures-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = TVAnmGst;
+				SWIFT_OBJC_BRIDGING_HEADER = TVAnimationsGestures/Header.h;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
